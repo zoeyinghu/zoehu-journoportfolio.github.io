@@ -1,0 +1,66 @@
+body, * {
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+    margin:0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: stretch;
+}
+nav {
+    width: 500px;
+    height: 100vh;
+    background-image:url(img/pens.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    text-indent: 8px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size:25px;
+}
+h3 {
+    font-size:25px;
+}
+
+.right-container {
+    overflow-y: scroll;
+    width: 2000px;
+    margin-top: 3px;
+}
+
+article {
+    display: flex;
+    width: 100%;   
+}
+
+.collum {
+    display: flex;
+    flex-direction: column;
+    margin: 45px;
+}
+.collumm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.reflect
+{
+    display: block;
+    margin: auto;   
+
+}
+footer {
+    min-height: 50px;
+    background-image: url(img/footer.jpg);
+    background-size: 100% 100%;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    height:100%;
+}
